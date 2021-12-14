@@ -1,0 +1,109 @@
+<?php 
+session_start();
+
+
+
+
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title> Contact Us </title>
+
+  <meta charset="utf-8">
+
+  <link href="basicCss.css" rel="stylesheet" type="text/css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+
+</head>
+
+
+<!--Nav-->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <img src="../phpFinal/images/vintage-logo.gif" width="50" height="50" alt="logo">
+        <a class="navbar-brand" href="#">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../phpFinal/homePage.html" >Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../phpFinal/contentPage.php" >Recomendations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" >Book of the Month</a>
+                </li>     
+                <li class="nav-item">
+                    <a class="nav-link" href="../phpFinal/emailPage.html" >Contact Us</a>
+                </li>                
+
+                <li class="nav-item">
+                    <a class="nav-link" href="../phpFinal/loginPage.php" >Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<!--Nav End-->
+    
+<div class="container">
+      <div style="text-align:center">
+        <p style="border-bottom: 1px solid black; margin: 50px 200px;"></p>
+        <h2>Contact Us</h2>
+        <p>Have questions? Email Us And We Can Answer Them!</p>
+        <p style="border-bottom: 1px solid black; margin: 50px 200px;">
+      </div>
+ </div>
+
+    <!--Social-->
+    <div class="mid">
+        <p>
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="images/facebook.svg" width="50" height="50" alt="facebook icon"></a>
+
+            <a href="https://www.twitter.com/" target="_blank">
+                <img src="images/twitter.svg" width="50" height="50" alt="twitter icon"></a>
+
+            <a href="https://www.pinterest.com/" target="_blank">
+                <img src="images/pinterest.svg" width="50" height="50" alt="pinterest icon"></a>
+
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="images/instagram.svg" width="50" height="50" alt="instagram icon"></a>
+
+        </p>
+   
+    </div>
+
+    <!--Social-->
+    <!--Footer-->
+    <footer>
+
+        <div class="row">
+            <div class="col-sm-6 offset-sm-3">
+                <p> Reading Between the Spines Book Club | 604 24th Street Des Moine, Iowa | (702) 971-1154</p>
+                <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Reading Between the Spines Book Club | All Rights Reserved | Site by <em>Olivia Coronado</em> </p>
+                <img src="../phpFinal/images/vintage-logo.gif" width="50" height="50" alt="logo">
+            </div>
+
+        </div>
+
+    </footer>
+    <!--Footer End-->
+
+</body>
+
+</html>

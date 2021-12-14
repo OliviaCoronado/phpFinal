@@ -1,0 +1,460 @@
+* {
+    box-sizing: border-box;
+    font-family: cursive;
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    }
+
+    .formField{ /*HoneyPot - Hidding it */
+      display: none;
+  }
+
+
+/*Cards Container*/ 
+    .container{
+      width: 80%;
+      margin: auto;
+      padding-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .boxes{
+      border: 5px solid white;
+      width:  150px;
+      height: 200px;
+      display: flex;
+      flex-direction:  column;
+      margin: 5px;
+      align-items: center;
+      justify-content: flex-end; 
+      
+      box-shadow: 0 0 10px silver;
+      transition: 300ms all;
+      background-size: cover;
+      background-position: center;
+      background-image: url('../phpFinal/images/book0.jpg');
+  
+  }
+  
+  .box-content{
+      background-color: white;
+      padding: 10px 5px;
+      text-align: center;
+      width: 100%;
+      transition: 300ms all; 
+  
+  }
+  
+  .boxes:hover{
+      transform: scale(1.1);
+  }
+  
+  .boxes:hover .box-content{
+      background-color: transparent;
+      color: white;
+  
+  }
+/*End of Cards Container*/
+ 
+
+
+/*Contact/email*/
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #db9a38;
+  padding: 10px;
+}
+
+#bodyContact {
+
+  background-image: url("../phpFinal/images/bookBackground.jpg");
+}
+
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #214eaf;
+  color: White;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #d1d1ca;
+}
+
+input[type=reset] {
+  background-color: #222d44;
+  color: White;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=tel] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=reset]:hover {
+  background-color: #d1d1ca;
+}
+
+
+.contact-container {
+  width: 500px;
+  background-color: #fff;
+  box-shadow: 0 0 10px 0 #999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+form {
+  margin: 35px;
+}
+
+.input-field {
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  border: 1px solid #777;
+  border-radius: 14px;
+  outline: none;
+
+
+}
+
+.containerHeader {
+  margin: auto;
+  width: 1000px;
+  border-radius: 5px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+
+}
+
+/*end of Contact/Email*/
+  .container1{
+    box-sizing: border-box;
+    background-image: url("../phpFinal/images/brushed_@2X.png");
+  
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+
+  body{
+    background-image: url("../phpFinal/images/brushed_@2X.png");
+  }
+
+
+  header nav{
+    padding-bottom: 5px;
+  }
+  
+  header nav a{
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  main{
+    font-size: 18px;
+    margin: 15px;
+  }
+   h1{
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    
+   }
+
+  h2{
+    font-weight: 400;
+
+    font-size: 36px;
+    text-align: center;
+  }
+  /*h3 is really h1*/
+  h3{
+    text-align: center;
+    color: black;
+   }
+  
+  h4{
+    text-align: center;
+    font-size: 28px;
+  }
+  h5{
+    text-align: center;
+  }
+  .heading_h3{
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 80px;
+    font-size: 70px;
+    font-family: cursive;
+  }
+  @media screen and (max-width: 600px){
+    .heading_h3{
+      font-size: 50px;
+  }}
+  
+  .mid_h4{
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-top: 20px;
+    margin: 0 80px;
+  }
+  .mid_para{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    margin: 0 100px;
+  }
+
+  @media screen and (max-width: 600px){
+    .mid_para{
+      text-align: center;
+      padding:10px;
+      margin: 0;
+    }
+  }
+
+  footer {
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    background-color: #343a40;
+    text-align:center;
+  }
+  .footer2{
+ padding: 30px;
+  }
+
+  .mid {
+    background-color: #343a40;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+@media (max-width: 575px){
+  .column{
+    width: 100%;
+  }
+
+  #img_small{
+    width: 100%;
+  }
+  }
+
+  .sizechange {
+    font-size: 20px;
+  }
+  .sizechange2 {
+    font-size: 40px;
+  }
+
+  p.intro::first-letter{
+    color:#88694D;
+    font-size: 200%;
+}
+p.intro::first-line{
+    color:#88694D;
+    font-variant: small-caps;
+}
+.faq-link{
+  color: green;
+}
+.faq-link[target=_blank]{
+  color: green;
+}
+
+/*
+.addpadding{
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+*/
+/*About*/
+      /* Container for flexboxes */
+      .row {
+        display: -webkit-flex;
+        display: flex;
+        font-family: cursive;
+      }
+      
+
+      .column {
+        padding: 10px;
+        height: 400px; 
+        margin: 10px;
+      }
+      
+      /* Left and right column */
+      .column.side {
+         -webkit-flex: 1;
+         -ms-flex: 1;
+         flex: 1;
+         text-align: center;
+         background-image: url("../phpFinal/images/brushed_@2X.png");
+         margin: 30px;
+      }
+      /* Middle column */
+      .column.middle {
+        -webkit-flex: 2;
+        -ms-flex: 2;
+        flex: 2;
+        align-self: center;
+        background-image: url("../phpFinal/images/brushed_@2X.png");
+      }
+      
+      /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+      @media (max-width: 575px) {
+        .row {
+          -webkit-flex-direction: column;
+          flex-direction: column;
+        }
+      }
+      @media (max-width: 600px) {
+      .column.side{
+        margin: 0;
+      }
+      .column.middle{
+        margin: 0;
+      }
+    }
+
+
+/*Contact Us page*/
+
+
+
+
+/*index?*/
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.bg { 
+  /* The image used */
+  background-image: url("../phpFinal/images/bookBackground.jpg");
+  
+
+  /* Full height */
+  height: 80%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 575px) {
+  .bg {
+    width: 100%;
+    height:auto;
+  }
+
+}
+
+
+
+/*form - contact us*/
+/*form*/
+body.contact {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+
+
+
+
+/* Create two columns that float next to eachother */
+.column5 {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column5, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+/*Events*/
+#music_m{
+  margin:10px 200px;
+}
+
+@media screen and (max-width: 600px){
+#music_m{
+  width: 100%;
+  margin: 0;
+}
+}
